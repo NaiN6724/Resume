@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Online resume of Tanadon Saelim, a university student.">
+  <title>Tanadon Saelim | Online Resume</title>
+  <style>
+    :root {
+      --navy: #14233b;
+      --blue: #3567d6;
+      --pale: #eef3ff;
+      --ink: #263247;
+      --muted: #66738a;
+      --line: #e5eaf2;
+      --paper: #ffffff;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: #f4f6fa;
+      color: var(--ink);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.65;
+    }
+    .page { width: min(960px, calc(100% - 32px)); margin: 42px auto; }
+    .resume {
+      display: grid;
+      grid-template-columns: 310px 1fr;
+      background: var(--paper);
+      border-radius: 22px;
+      overflow: hidden;
+      box-shadow: 0 18px 55px rgba(25, 42, 70, .10);
+    }
+    aside {
+      background: var(--navy);
+      color: #fff;
+      padding: 42px 30px;
+    }
+    .avatar {
+      width: 112px; height: 112px; border-radius: 50%;
+      display: grid; place-items: center;
+      margin-bottom: 24px;
+      background: linear-gradient(135deg, #8eafff, #4f72cf);
+      border: 5px solid rgba(255,255,255,.18);
+      color: white; font-size: 38px; font-weight: 700;
+      letter-spacing: 1px;
+    }
+    aside h1 { font-size: 27px; line-height: 1.2; margin: 0 0 8px; }
+    .role { color: #b9c9ee; font-size: 14px; margin: 0 0 34px; }
+    .side-title {
+      color: #a9c0f5; font-size: 12px; letter-spacing: 2px;
+      text-transform: uppercase; margin: 30px 0 12px;
+    }
+    .contact { font-size: 13px; color: #e0e8fa; overflow-wrap: anywhere; }
+    .contact p { margin: 0 0 12px; }
+    .hobby-list { padding-left: 18px; margin: 0; color: #e0e8fa; font-size: 14px; }
+    main { padding: 46px 44px; }
+    .eyebrow {
+      color: var(--blue); text-transform: uppercase;
+      font-size: 12px; letter-spacing: 2px; font-weight: 700;
+    }
+    .intro { font-size: 15px; color: #526078; margin: 12px 0 34px; }
+    section { margin: 0 0 31px; }
+    section h2 {
+      color: var(--navy); font-size: 17px; margin: 0 0 15px;
+      padding-bottom: 9px; border-bottom: 2px solid var(--line);
+    }
+    .item { margin-bottom: 17px; }
+    .item h3 { font-size: 15px; margin: 0; color: #263957; }
+    .meta { color: var(--muted); font-size: 13px; margin: 3px 0 6px; }
+    .item p, .item li { font-size: 14px; color: #59667b; }
+    .item p { margin: 5px 0 0; }
+    .item ul { margin: 7px 0 0; padding-left: 19px; }
+    .tag {
+      display: inline-block; background: var(--pale); color: #3157a6;
+      border-radius: 20px; padding: 5px 11px; margin: 4px 4px 0 0;
+      font-size: 12px; font-weight: 700;
+    }
+    footer { text-align: center; color: #8791a2; font-size: 12px; padding: 18px; }
+    @media (max-width: 720px) {
+      .page { width: min(560px, calc(100% - 20px)); margin: 10px auto; }
+      .resume { grid-template-columns: 1fr; border-radius: 16px; }
+      aside { padding: 32px 26px; }
+      main { padding: 32px 26px; }
+      .role { margin-bottom: 18px; }
+      .side-title { margin-top: 22px; }
+    }
+    @media print {
+      body { background: white; }
+      .page { width: 100%; margin: 0; }
+      .resume { box-shadow: none; border-radius: 0; }
+      footer { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="resume">
+      <aside>
+        <div class="avatar" aria-label="Tanadon Saelim initials">TS</div>
+        <h1>Tanadon<br>Saelim</h1>
+        <p class="role">University Student</p>
+
+        <div class="side-title">Contact &amp; Location</div>
+        <div class="contact">
+          <p><strong>Address</strong><br>
+          388 Moo 17, Mueang Kao Subdistrict,<br>
+          Kabin Buri District, Prachin Buri Province 25240, Thailand</p>
+        </div>
+
+        <div class="side-title">Interests</div>
+        <ul class="hobby-list">
+          <li>Listening to music</li>
+          <li>Playing video games</li>
+          <li>Browsing the internet</li>
+        </ul>
+      </aside>
+
+      <main>
+        <div class="eyebrow">Personal Online Resume</div>
+        <p class="intro">
+          I am a university student who is eager to learn, improve my abilities,
+          and gain new experiences. I enjoy exploring technology, discovering
+          new information, and working on tasks that help me develop both
+          personally and academically. I am responsible, adaptable, and open
+          to opportunities that allow me to grow.
+        </p>
+
+        <section>
+          <h2>Profile</h2>
+          <div class="item">
+            <p>
+              I am interested in developing practical skills and learning how
+              knowledge can be applied in real-life situations. I enjoy using
+              digital media and technology, and I am willing to learn from
+              others and take on new challenges.
+            </p>
+          </div>
+        </section>
+
+        <section>
+          <h2>Work Experience</h2>
+          <div class="item">
+            <h3>Entry-Level Candidate</h3>
+            <div class="meta">Currently seeking opportunities to gain experience</div>
+            <p>
+              I do not have formal work experience yet. I am ready to learn,
+              follow instructions, work cooperatively with others, and build
+              professional skills through future work opportunities.
+            </p>
+          </div>
+        </section>
+
+        <section>
+          <h2>Education</h2>
+          <div class="item">
+            <h3>University of the Thai Chamber of Commerce</h3>
+            <div class="meta">Currently studying</div>
+            <p>Continuing university-level studies and developing academic and personal skills.</p>
+          </div>
+        </section>
+
+        <section>
+          <h2>Personal Strengths</h2>
+          <span class="tag">Willingness to learn</span>
+          <span class="tag">Adaptability</span>
+          <span class="tag">Responsibility</span>
+          <span class="tag">Teamwork</span>
+          <span class="tag">Digital interest</span>
+        </section>
+      </main>
+    </div>
+    <footer>© 2026 Tanadon Saelim · Online Resume</footer>
+  </div>
+</body>
+</html>
